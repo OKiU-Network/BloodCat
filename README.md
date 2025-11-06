@@ -1,5 +1,5 @@
 # Blood-Cat
-
+# Educational purposes ONLY
 A powerful tool for discovering and brute-forcing RTSP camera credentials, with support for automatic port detection, parallel scanning, and comprehensive password lists.
 
 ---
@@ -212,3 +212,4 @@ $ python3 bloodcat.py --ip "192.168.0.247:8554" --threads 100
 - All discovered RTSP URLs are automatically saved to `./data/ipcam.info`
 - For best performance on local networks, use higher thread counts (100-200)
 - For remote targets, use default or lower thread counts to avoid overwhelming the connection
+
